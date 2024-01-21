@@ -41,13 +41,13 @@ for _ in range(len(t)):
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
-ax1.plot(t, n1[:-1], label='n1')
-ax1.plot(t, n2[:-1], label='n2')
+ax1.plot(t, n1[:-1], label='ofiara')
+ax1.plot(t, n2[:-1], label='drapieżnik')
 ax1.set_title('Pierwszy zestaw danych')
 ax1.legend()
 
-ax2.plot(t, n3[:-1], label='n3')
-ax2.plot(t, n4[:-1], label='n4')
+ax2.plot(t, n3[:-1], label='ofiara')
+ax2.plot(t, n4[:-1], label='drapieżnik')
 ax2.set_title('Drugi zestaw danych')
 ax2.legend()
 
